@@ -42,13 +42,14 @@ width: max-content;
 
   }
 }
-@media only screen and (max-width:460px){
-  .art-work, .App-header{
+@media only screen and (max-width:470px){
+  .App-header{
   
-  width: 500px !important;
+  width: 550px ;
 
   }
 }
+
 .NavBar{
   margin-left: auto;
 }
@@ -71,9 +72,9 @@ text-align: center;
 margin-bottom: 18px;
 transform: translateY(-20%);
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 460px) {
   .art-work {
-    width: min-content !important;
+   width: 550px !important;
     font-size: 12px;
   }
 }

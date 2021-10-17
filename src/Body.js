@@ -5,9 +5,9 @@ const Body = () => {
   const [val, setVal] = useState("50");
     return (
      <>
-     <div className="container  art-work bg-dark">
+     <div className="container col-sm-12  art-work bg-dark">
     <div className="row">
-  <div className="col-lg-12 mt-2 col-sm-12 col-md-12">
+  <div className="col-lg-12 mt-2  col-md-12">
     <div className="d-flex col-md-12 text-white flex-wrap justify-content-start">
       <div className="p-5 ">
         <h5 className="card-title  artwork-sec-1">Pay for</h5>
