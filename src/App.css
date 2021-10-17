@@ -133,12 +133,12 @@ margin: 1rem 0 3rem 0;
   section.pricing{
 
   }
-}
-@media only screen and (max-width: 530px){
-  .pricing{
-margin-left: 10px;
-  }
 } */
+@media only screen and (max-width: 360px){
+  .card-one{
+margin: 0 auto ;
+  }
+}
 
 .price-btn-one{
   font-size: 14px;
@@ -184,7 +184,7 @@ font-family: sans-serif;
   border: 1px solid rebeccapurple;
   border-radius: 4% !important;
   color: #fff;
- margin: 0 auto;
+ 
   height: 520px;
   zoom: 101%;
 width: 350px;
@@ -196,7 +196,7 @@ width: 350px;
 .pricing .card-two{
   background: #552b951c;
   height: 530px;
-  margin: 0 auto;
+
   padding-bottom: 22px;
   border-radius: 4% !important;
   color: #562b95;
@@ -211,7 +211,7 @@ width: 350px;
   border-radius: 4% !important;
   color: #fff;
 width: 350px;
-margin: 0 auto;
+
 }
 .pricing .card-body-one{
   padding: 20px;
@@ -339,7 +339,7 @@ margin: 0 auto;
 }
 .middle-btn-2{
   border-radius: 25px;
- border: 0px;
+ border: none;
  outline: 2px solid  #22044e;
   color: #562b95;
 height: 42px;
@@ -352,8 +352,8 @@ height: 42px;
 .middle-btn-2:hover{
   background: #22044ee5;
   color: #fff;
-  border: none;
-  outline:  none;
+  
+ 
 }
 @media (max-width:1006px) {
   .middle-sec {

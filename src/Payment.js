@@ -2,16 +2,16 @@ import React from 'react'
 
 const Payment = () => {
     const cardInfo=[
-        {priceBtnClass:"price-btn-one ",discount:"Save 20%",title:"Pro plan",class:" card-one   card-one mb-0 mb-lg-0"  , price:"799$", artwork:""},
-        {priceBtnClass:"price-btn-two ",title:"Lite",class:"card-two   card-two mb-0 mb-lg-0"  , price:"Free", artwork:"5 artworks"},
-        {priceBtnClass:"price-btn-three ",title:"Lite",class:"card-three  card-three mb-0 mb-lg-0", price:"300$", artwork:"10,000 artworks"},
+        {priceBtnClass:"price-btn-one ",discount:"Save 20%",title:"Pro plan",class:" card-one  card-one mb-0 mb-lg-0"  , price:"799$", artwork:""},
+        {priceBtnClass:"price-btn-two ",title:"Lite",class:" card-two  card-two mb-0 mb-lg-0"  , price:"Free", artwork:"5 artworks"},
+        {priceBtnClass:"price-btn-three ",title:"Lite",class:" card-three  card-three mb-0 mb-lg-0", price:"300$", artwork:"10,000 artworks"},
     ];
     const Cardrender=(card,index)=>{
       {/* <section class=" " key={index}> */}
       
           {/* col-lg-12 col-sm-12  card-one mb-5 mb-lg-0 */}
         return(
-      <div className="pricing col" >
+      <div className="pricing d-flex d-md-flex justify-content-center  justify-content-md-center col col-lg-4" >
         <div className =  {card.class} >
           <div className="card-body-one" style={{position: 'relative'}}>
             {card?.discount && <div className=" discount text-uppercase text-center">{card.discount}</div>}
@@ -41,8 +41,8 @@ const Payment = () => {
     return (
       <>
       
-      <div className="">
-      <div class=" container  d-flex justify-content-center flex-wrap">
+      <div className=" ">
+      <div class=" container ">
     <div class=" row">
           {cardInfo.map(Cardrender)}
           </div>
