@@ -2,9 +2,9 @@ import React from 'react'
 
 const Payment = () => {
     const cardInfo=[
-        {priceBtnClass:"price-btn-one ",discount:"Save 20%",title:"Pro plan",class:" card-one col-lg-12 col-sm-12  card-one mb-0 mb-lg-0"  , price:"799$", artwork:""},
-        {priceBtnClass:"price-btn-two ",title:"Lite",class:"card-two col-lg-12 col-sm-12  card-two mb-0 mb-lg-0"  , price:"Free", artwork:"5 artworks"},
-        {priceBtnClass:"price-btn-three ",title:"Lite",class:"card-three col-lg-12 col-sm-12  card-three mb-0 mb-lg-0", price:"300$", artwork:"10,000 artworks"},
+        {priceBtnClass:"price-btn-one ",discount:"Save 20%",title:"Pro plan",class:" card-one   card-one mb-0 mb-lg-0"  , price:"799$", artwork:""},
+        {priceBtnClass:"price-btn-two ",title:"Lite",class:"card-two   card-two mb-0 mb-lg-0"  , price:"Free", artwork:"5 artworks"},
+        {priceBtnClass:"price-btn-three ",title:"Lite",class:"card-three  card-three mb-0 mb-lg-0", price:"300$", artwork:"10,000 artworks"},
     ];
     const Cardrender=(card,index)=>{
       {/* <section class=" " key={index}> */}
